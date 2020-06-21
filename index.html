@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>opdracht 1</title>
+        <link href="https://vjs.zencdn.net/7.8.2/video-js.css" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+        <link href="css/reset.css" rel="stylesheet" type="text/css">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <nav>
+            <div id="navigatie">
+
+                <div class="nav-logo"></div>
+
+                <div class="nav-tekst">
+                <ul>
+                    <li><a href="#" id="overOns">OVER ONS</a></li>
+                    <li><a href="#" id="lesMateriaal">LESMATERIAAL</a></li>
+                    <li><a href="#" id="contact">CONTACT</a></li>
+                </ul>
+                </div>
+
+                <a href="#" class="nav-switch"></a>
+
+            </div>
+        </nav>
+
+        <header>
+            <div class="header-tekst">
+                <h1>Van beginner naar expert</h1>
+                <h1>Het lesmateriaal brengt je verder</h1>
+                <h2>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec id elit non mi porta gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</h2>
+            </div>
+            <div class="hero-color"></div>
+        </header>
+
+        <main>
+            <div id="vierkanten">
+                <div class="vierkant1">
+                    <div class="logo-vierkant1"></div>
+                    <div class="vierkant-tekst"><p>Leer</p></div>
+                </div>
+                <div class="vierkant2">
+                    <div class="logo-vierkant2"></div>
+                    <div class="vierkant-tekst"><p>Codeer</p></div>
+                </div>
+                <div class="vierkant3">
+                    <div class="logo-vierkant3"></div>
+                    <div class="vierkant-tekst"><p>Speel</p></div>
+                </div>
+            </div>
+
+            <div class="clear"></div>
+
+            <div id="playlist">
+            <h4>Playlist</h4>
+
+            <div id="accordion">
+                <!--1-->
+                <div class="balk">
+                    <div class="balk-img"></div>
+                    <h3 class="balk-tekst">Algemene introductie</h3>
+                </div>
+                <div class="video-player" id="player-1">
+                    <video data-setup='{"controls": false, "loop": false, "autoplay": false}' id="my-video1" class="video-js" controls preload="auto" width="1089" height="612" poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
+                        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" type="video/mp4" />    
+                    </video>
+                    <div class="video-buttons">
+                        <button class='rewind'></button>
+                        <button class='play toggle'></button>
+                        <button class='forward'></button>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+                    <!--2-->
+                <div class="balk">
+                    <div class="balk-img"></div>
+                    <h3 class="balk-tekst">Workshop 1: kleuren met code</h3>
+                </div>
+
+                <div class="video-player" id="player-1">
+                    <video data-setup='{"controls": false, "loop": false, "autoplay": false}' id="my-video2" class="video-js" controls preload="auto" width="1089" height="612" poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
+                        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4" type="video/mp4" />    
+                    </video>
+                    <div class="video-buttons">
+                        <button class='rewind'></button>
+                        <button class='play toggle'></button>
+                        <button class='forward'></button>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+                    <!--3-->
+                <div class="balk">
+                    <div class="balk-img"></div>
+                    <h3 class="balk-tekst">Workshop 2: Vormen maken</h3>
+                </div>
+
+                <div class="video-player" id="player-1">
+                    <video data-setup='{"controls": false, "loop": false, "autoplay": false}' id="my-video3" class="video-js" controls preload="auto" width="1089" height="612" poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
+                        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4" type="video/mp4" />    
+                    </video>
+                    <div class="video-buttons">
+                        <button class='rewind'></button>
+                        <button class='play toggle'></button>
+                        <button class='forward'></button>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+                    <!--4-->
+                <div class="balk">
+                    <div class="balk-img"></div>
+                    <h3 class="balk-tekst">Workshop 3: beweging</h3>
+                </div>
+
+                <div class="video-player" id="player-1">
+                    <video data-setup='{"controls": false, "loop": false, "autoplay": false}' id="my-video4" class="video-js" controls preload="auto" width="1089" height="612" poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
+                        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4" type="video/mp4" />    
+                    </video>
+                    <div class="video-buttons">
+                        <button class='rewind'></button>
+                        <button class='play'></button>
+                        <button class='forward'></button>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+                    <!--5-->
+                <div class="balk">
+                    <div class="balk-img"></div>
+                    <h3 class="balk-tekst">Workshop 4: Variabelen gebruiken</h3>
+                </div>
+
+                <div class="video-player" id="player-1">
+                    <video data-setup='{"controls": false, "loop": false, "autoplay": false}' id="my-video5" class="video-js" controls preload="auto" width="1089" height="612" poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
+                        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4" type="video/mp4" />    
+                    </video>
+                    <div class="popup-scherm"></div>
+                    <div class="video-buttons">
+                        <button data-skip="-10" class='rewind'></button>
+                        <button class='play'></button>
+                        <button data-skip="10" class='forward'></button>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+                </div>
+            </div>
+
+            <div id="support">
+                <div class="support-tekst">
+                <p>Support</p>
+                <br>
+                <p>Onze studenten staan voor je klaar. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. </p>
+                </div>
+                <div class="contact-button">
+                    <h2>NAAR CONTACT</h2>
+                </div>
+            </div>
+
+            <div class="clear"></div>
+
+            <div class="multiple-items">
+                <div class="team">
+                    <div class="persoon1"></div>
+                    <div class="tekst-team">
+                        <p>Alina Kovalchuk</p>
+                        <h5>Hoofd support</h5>
+                    </div>
+                    <div class="button-team">
+                        <h6>Mail</h6>
+                    </div>
+                </div>
+                <div class="team">
+                    <div class="persoon2"></div>
+                    <div class="tekst-team">
+                        <p>Gorgie Encinas</p>
+                        <h5>Hoofd support</h5>
+                    </div>
+                    <div class="button-team">
+                        <h6>Mail</h6>
+                    </div>
+                </div>
+                <div class="team">
+                    <div class="persoon3"></div>
+                    <div class="tekst-team">
+                        <p>Kal Visuals</p>
+                        <h5>Hoofd support</h5>
+                    </div>
+                    <div class="button-team">
+                        <h6>Mail</h6>
+                    </div>
+                </div>
+                <div class="team">
+                    <div class="persoon4"></div>
+                    <div class="tekst-team">
+                        <p>Norman Toth</p>
+                        <h5>Hoofd support</h5>
+                    </div>
+                    <div class="button-team">
+                        <h6>Mail</h6>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer>
+            <h1>Klaar voor de<br>volgende uitdaging?</h1>
+            <br>
+            <h2>In ons expertprogramma vind je lessen voor gevorderden</h2>
+
+            <a href="https://martijnbraad.github.io/happy-teachers/" class="button-footer">KOM MAAR OP</a>
+            
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+        <script src="https://vjs.zencdn.net/7.8.2/video.js"></script>
+        <script src="js/main.js"></script>
+
+    </body>
+</html>

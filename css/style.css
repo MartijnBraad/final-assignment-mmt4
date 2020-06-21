@@ -1,0 +1,668 @@
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 18px;
+    color: white;  
+    margin-left: 100px;
+}
+
+h4 {
+    font-size: 18px;
+    color: #CC0085;
+    margin-bottom: 20px;
+}
+
+h5 {
+    font-size: 18px;
+    color: #FFAFE3;
+    margin-top: 10px;
+}
+
+h6 {
+    color: white;
+    font-size: 18px;
+    margin-top: 7px;
+}
+
+p {
+    font-size: 18px;
+    color: #CC0085; 
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+header {
+    height: 700px;
+    max-width: 100%;
+    background-image: linear-gradient(0deg, rgba(255,18,172,0.75) 0%, rgba(255,255,255,0.75) 100%), url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-dark {
+    height: 700px;
+    max-width: 100%;
+    background-image:linear-gradient(90deg, rgba(29,0,255,0.8127626050420168) 0%, rgba(0,118,255,0.5074404761904762) 100%), url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+footer {
+    margin-top: 100px;
+    height: 450px;
+    width: 100%;
+    background-image: linear-gradient(318deg, rgba(255,18,172,0.75) 0%, rgba(255,255,255,0.9) 100%), url(../img/footerimg.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+
+.footer-dark {
+    margin-top: 100px;
+    height: 450px;
+    width: 100%;
+    background-image:linear-gradient(183deg, rgba(29,0,255,0.8127626050420168) 0%, rgba(0,118,255,0.5074404761904762) 100%), url(../img/footerimg.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+
+svg {
+    fill: #000000;
+}
+
+/*navigatie*/
+nav {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.nav-logo {
+    height: 70px;
+    width: 70px;
+    float: left;
+    margin-left: 75px;
+    margin-top: 15px;
+    background-image: url(../img/logo.svg);
+}
+
+.nav-logo-dark {
+    height: 70px;
+    width: 70px;
+    float: left;
+    margin-left: 75px;
+    margin-top: 15px;
+    background-image: url(../img/logowhite.svg);
+}
+
+.nav-tekst {
+    height: 41px;
+    max-width: 573px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.nav-switch {
+    height: 40px;
+    width: 78px;
+    background-image: url(../img/switch.svg);
+    float: right;
+    margin-top: -45px;
+    margin-right: 75px;
+}
+
+.nav-switch-dark {
+    height: 40px;
+    width: 78px;
+    background-image: url(../img/switchblue.svg);
+    float: right;
+    margin-top: -45px;
+    margin-right: 75px;
+}
+
+.header-tekst {
+    padding: 50px;
+    max-width: 920px;
+    margin: 0 auto;
+    padding-top: 170px;
+    color: white;
+}
+
+#navigatie {
+    width: 1240px;
+    height: 100px;
+    background: white;
+    position: fixed;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    z-index: 999;
+}
+
+ul a {
+    text-decoration: none;
+    color: #CC0085;  
+}
+
+li {
+    float: left;
+    margin-left: 60px;
+    margin-top: 12px;
+    font-size: 16px;
+}
+
+main {
+    max-width: 1089px;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+#vierkanten {
+    margin: 0 auto;
+    margin-top: -112px;
+    z-index: 999;
+}
+
+.vierkant-tekst {
+    width: 100%;
+    text-align: center;
+    margin-top: -30px;
+}
+
+.logo-vierkant1 {
+    width: 160px;
+    height: 160px;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(../img/logo1.svg);
+    background-size: cover;
+}
+
+.logo-vierkant2 {
+    width: 160px;
+    height: 160px;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(../img/logo2.svg);
+    background-size: cover;
+}
+
+.logo-vierkant3 {
+    width: 160px;
+    height: 160px;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(../img/logo3.svg);
+    background-size: cover;
+}
+
+.logo-vierkant1-dark {
+    width: 160px;
+    height: 160px;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(../img/leer.svg);
+    background-size: cover;
+}
+
+.logo-vierkant2-dark {
+    width: 160px;
+    height: 160px;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(../img/codeer.svg);
+    background-size: cover;
+}
+
+.logo-vierkant3-dark {
+    width: 160px;
+    height: 160px;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(../img/speel.svg);
+    background-size: cover;
+}
+
+.vierkant1 {
+    width: 352px;
+    height: 384px;
+    background: #F4F2FF;
+    float: left;
+    margin-right: 16px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 40%;
+}
+
+.vierkant2 {
+    width: 352px;
+    height: 384px;
+    background: #F4F2FF;
+    float: left;
+    margin-right: 16px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 40%;
+}
+
+.vierkant3 {
+    width: 352px;
+    height: 384px;
+    background: #F4F2FF;
+    float: left;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 40%;
+}
+
+.clear { clear:both;}
+
+/*Accordion*/
+#playlist {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#accordion {
+    font-size: 18px;
+}
+
+.balk {
+    background-color: #FFAFE3;
+    height: 72px;
+    margin-top: 5px;
+}
+.balk-tekst{
+    color: white;
+    margin-left: 10%;
+    margin-top:-30px;
+}
+.balk-img{
+    width:35px;
+    height:35px;
+    margin-top:20px;
+    margin-left:10px;
+    background-image: url(../img/pijl-rechts.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+}
+
+.balk.ui-state-active .balk-img{
+    background-image: url(../img/pijl-down.svg);
+    margin-top:12px;
+    margin-left: 17px;
+}
+.balk.ui-state-active .balk-tekst{
+    color: white;
+    margin-top: -20px;
+}
+
+.balk.ui-state-active{
+    background-color: #CC0085; 
+}
+
+/*support*/
+#support {
+    margin-top: 75px;
+}
+
+.support-tekst {
+    max-width: 720px;
+    float: left;
+}
+
+.contact-button {
+    width: 270px;
+    padding: 20px;
+    background: #CC0085;
+    float: right;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+/*slider*/
+.multiple-items {
+    margin-top: 100px;
+    height: auto;
+    overflow: hidden;
+}
+
+.team {
+    width: 400px;
+    height: 200px;
+    background: #F4F2FF;
+    margin-left: 50px;
+    overflow: hidden;
+}
+
+/*footer*/
+.button-footer {
+    width: 270px;
+    padding: 20px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 10px;
+    color: #CC0085;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 50px;
+    font-size: 22px;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+
+/*video*/
+.ui-accordion-content .video-buttons {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: -330px;
+}
+
+#accordion .play{
+    background-color: #CC0085;;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    float: left;
+    margin: 0 20px;
+    margin-top: -15px;
+    display: none;
+    background-image: url(../img/play.svg);
+    background-repeat: no-repeat;
+    background-position-x: 12px;
+    background-position-y: 17px;
+}
+
+#accordion .pauze{
+    background-color: #CC0085;;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    float: left;
+    margin: 0 20px;
+    margin-top: -15px;
+    display: none;
+    background-image: url(../img/pause.svg);
+    background-repeat: no-repeat;
+    background-position-x: 26px;
+    background-position-y: 24px;
+}
+
+#accordion .rewind{
+    background-color:  #CC0085;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    float: left;
+    display: none;
+    background-image: url(../img/rewind.svg);
+    background-repeat: no-repeat;
+    background-position-x: 12px;
+    background-position-y: 16px;
+}
+
+#accordion .forward{
+    background-color:  #CC0085;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    float: left;
+    display: none;
+    background-image: url(../img/forward.svg);
+    background-repeat: no-repeat;
+    background-position-x: 12px;
+    background-position-y: 16px;
+    transform: rotate(180deg);
+}
+
+.popup-scherm {
+    animation-name: v1k;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    background-image: url(../img/modal.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    z-index: 6;
+    visibility: hidden;
+}
+
+#accordion .ui-accordion-content:hover .rewind{
+    display: block;
+}
+
+#accordion .ui-accordion-content:hover .play{
+    display: block;
+}
+
+#accordion .ui-accordion-content:hover .forward{
+    display: block;
+}
+
+#my-video1 {
+    margin: 0 auto;
+    height: 0;
+    overflow: hidden;
+    position:relative;
+	padding-bottom:56.25%;
+}
+
+#my-video2 {
+    margin: 0 auto;
+    height: 0;
+    overflow: hidden;
+    position:relative;
+	padding-bottom:56.25%;
+}
+
+#my-video3 {
+    margin: 0 auto;
+    height: 0;
+    overflow: hidden;
+    position:relative;
+	padding-bottom:56.25%;
+}
+
+#my-video4 {
+    margin: 0 auto;
+    height: 0;
+    overflow: hidden;
+    position:relative;
+	padding-bottom:56.25%;
+}
+
+#my-video5 {
+    margin: 0 auto;
+    height: 0;
+    overflow: hidden;
+    position:relative;
+	padding-bottom:56.25%;
+}
+
+.video-js {
+    position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+.done {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: green;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+}
+
+.persoon1 {
+    width: 40%;
+    height: 160px;
+    border-radius: 50%;
+    background: url(../img/alina-kovalchuk-1143928-unsplash.jpg);
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+.persoon2 {
+    width: 40%;
+    height: 160px;
+    border-radius: 50%;
+    background: url(../img/giorgio-encinas-781653-unsplash.jpg);
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+.persoon3 {
+    width: 40%;
+    height: 160px;
+    border-radius: 50%;
+    background: url(../img/kal-visuals-592091-unsplash.jpg);
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+.persoon4 {
+    width: 40%;
+    height: 160px;
+    border-radius: 50%;
+    background: url(../img/norman-toth-177973-unsplash.jpg);
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+.tekst-team {
+    width: 45%;
+    height: 50px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+.button-team {
+    float: right;
+    height: 32px;
+    width: 25%;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-right: 25%;
+    color: white;
+    background: #CC0085;
+    text-align: center;
+}
+
+.done {
+    width: 100px;
+    height: 100px;
+    background: green;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+ 
+
+@media only screen and (max-width: 1400px) {
+    nav {width: 95%;}
+    #navigatie {width: 95%;}
+    .contact-button {float: left; margin-top: 25px;}
+    .vierkant1 {width: 32.5%; margin-right: 1.25%;}
+    .vierkant2 {width: 32.5%; margin-right: 0;} 
+    .vierkant3 {width: 32.5%; float: right;}
+}
+
+
+@media only screen and (max-width: 1100px) {
+    nav {width: 95%;}
+    .header-tekst {padding-top: 200px;}
+    #navigatie {width: 95%;}
+    .contact-button {float: left; margin-top: 25px;}
+    .vierkant1 {width: 32.5%; height: 330px; margin-right: 1.25%;}
+    .vierkant2 {width: 32.5%; height: 330px; margin-right: 0;} 
+    .vierkant3 {width: 32.5%; height: 330px; float: right;}
+}
+
+@media only screen and (max-width: 950px) {
+    header {height: 800px;}
+    .header-tekst {padding-top: 200px;}
+    .contact-button {float: left; margin-top: 25px;}
+    .vierkant1 {width: 32.5%; height: 250px; margin-right: 1.25%;}
+    .vierkant2 {width: 32.5%; height: 250px; margin-right: 0;} 
+    .vierkant3 {width: 32.5%; height: 250px; float: right;}
+    .vierkant-tekst {margin-top: -60px;}
+    .nav-tekst {text-align: center;}
+    li {font-size: 14px; margin-left: 60px;}
+    .nav-logo {margin-left: 20px;}
+    .nav-switch {margin-right: 20px;}
+}
+
+@media only screen and (max-width: 750px) {
+    h1 {font-size:30px;}
+    h2 {font-size:16px;}
+    h3 {font-size:12px; padding-left: 30px;}
+    .balk-tekst {margin-top: -25px;}
+    header {height: 700px;}
+    .header-tekst {padding-top: 200px;}
+    .contact-button {float: left; margin-top: 25px;}
+    .vierkant1 {width: 100%; height: 260px; margin: auto; float:none; margin-bottom: 25px; padding-top: 25%;}
+    .vierkant2 {width: 100%; height: 260px; margin: auto; float:none; margin-bottom: 25px; padding-top: 25%;} 
+    .vierkant3 {width: 100%; height: 260px; margin: auto; float:none; margin-bottom: 25px; padding-top: 25%;}
+    .logo-vierkant1 {transform: none; margin-left: 25%; margin-top: 0;}
+    .logo-vierkant2 {transform: none; margin-left: 25%; margin-top: 0;}
+    .logo-vierkant3 {transform: none; margin-left: 25%; margin-top: 0;}
+    .vierkant-tekst {margin-top: 25px;}
+    li{font-size: 12px; text-align: center; float: none; margin-right: 25%;}
+    .nav-tekst {margin-top: 20px;}
+    .nav-switch {margin-top: -30px;}
+}
